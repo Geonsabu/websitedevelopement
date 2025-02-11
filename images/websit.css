@@ -1,0 +1,41 @@
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px black;
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li{
+    height: 50px;
+
+}
+
+nav a{
+   height: 100%;
+  padding: 0 30px;
+   text-decoration: none;
+  display: flex;
+   align-items: center;
+   color: rgb(0, 213, 255);
+}
+nav a :hover{
+    background-color: azure;
+}
+nav li:first-child{
+   margin-right: auto;
+}
+.Image{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    bottom: 300px;
+    z-index: -1;
+}
